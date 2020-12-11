@@ -77,6 +77,8 @@ set ( filters_files
       PoissonDiskThinningParameters.h
       processWhere.cc
       processWhere.h
+      PracticalBoundsCheck.cc
+      PracticalBoundsCheck.h
       actions/AssignError.cc
       actions/AssignError.h
       actions/FilterAction.cc
@@ -148,4 +150,5 @@ PREPEND( _p_filters_files       "filters"       ${filters_files} )
 set ( filters_src_files
       ${_p_filters_files}
       PARENT_SCOPE
-)
+)   
+
